@@ -26,7 +26,7 @@ def get_info(category):
     ruler = spider_rule.get_rule(category)
     for ru in ruler:
         print ru
-    info = range(1, 65)
+    info = range(1, 7)
     col = 1
     interval = ruler[0]
     count = ruler[1]
@@ -78,4 +78,4 @@ def get_data(url, tag, count, sleep, subject):
         time.sleep(sleep)
     return infos
 
-get_info('music')
+
